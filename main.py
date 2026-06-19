@@ -56,6 +56,15 @@ async def get_addon_catalog(type: str, id: str):
     for i, result in enumerate(results):
         if result.status_code == 200:
             result = result.json()
+
+            # Config required force
+            if result["id"] == "default.global.topstreaming.flixpatrol" or result["id"] == "org.stremio.mammamia" or result["id"] == "org.nuvio.trakt.recommendations":
+                result["behaviorHints"] = {
+                    "configurable": True,
+                    "configurationRequired": True
+                }
+            
+            # Append addons to list
             addons.append(
                 {
                     "transportName": "http",
