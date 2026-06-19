@@ -45,7 +45,7 @@ async def get_addon_catalog(type: str, id: str):
     addons = []
     tasks = []
 
-    async with httpx.AsyncClient(timeout=10) as client:
+    async with httpx.AsyncClient(timeout=20) as client:
         for addon in ADDON_FETCH_LIST:
             tasks.append(
                 client.get(addon)
