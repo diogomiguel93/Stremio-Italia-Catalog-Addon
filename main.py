@@ -16,10 +16,15 @@ ADDON_FETCH_LIST = [
     "https://torrentioita.stremio-italia.eu/oResults=false/aHR0cHM6Ly90b3JyZW50aW8uc3RyZW0uZnVuL3Byb3ZpZGVycz15dHMsZXp0dixyYXJiZywxMzM3eCx0aGVwaXJhdGViYXksa2lja2Fzc3RvcnJlbnRzLHRvcnJlbnRnYWxheHksbWFnbmV0ZGwsaG9ycmlibGVzdWJzLG55YWFzaSx0b2t5b3Rvc2hvLGFuaWRleCxydXRvcixydXRyYWNrZXIsY29tYW5kbyxibHVkdix0b3JyZW50OSxpbGNvcnNhcm9uZXJvLG1lam9ydG9ycmVudCx3b2xmbWF4NGssY2luZWNhbGlkYWQsYmVzdHRvcnJlbnRzfGxhbmd1YWdlPWl0YWxpYW4=/manifest.json",
     "https://icv.stremio-italia.eu/manifest.json",
     "https://streamvix.hayd.uk/manifest.json",
+    "https://tvvoo.hayd.uk/manifest.json",
+    "https://streailer.elfhosted.com/manifest.json",
+    "https://top-streaming.stream/username=temporary_username/manifest.json",
     "https://toast-translator.elfhosted.com/manifest.json",
     "https://toastflix.stremio-italia.eu/manifest.json",
+    "https://trakt.realbestia.com/manifest.json",
     "https://easycatalogs.realbestia.com/manifest.json",
-    "https://easystreams.realbestia.com/manifest.json"
+    "https://easystreams.realbestia.com/manifest.json",
+    "https://mammamia.stremio-italia.eu/fFNDfEFXfExJVkVUVnxDQnxHU3xHSER8R098R0Z8RVN8UlR8VEl8T1NUfFZEfFNDX01GUHw=/manifest.json"
 ]
 
 # Files Load
