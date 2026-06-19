@@ -63,7 +63,7 @@ async def get_addon_catalog(type: str, id: str):
     addons.append(
         {
             "transportName": "http",
-            "trasportUrl": "http://127.0.0.1:11470/manifest.json",
+            "trasnportUrl": "http://127.0.0.1:11470/manifest.json",
             "manifest": PLUGIN_MANIFEST
         }
     )
