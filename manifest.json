@@ -1,0 +1,20 @@
+{
+  "id": "strem.io.italia",
+  "version": "1.0.0",
+  "description": "Addon della community italia di Stremio",
+  "name": "Stremio Italia Addon Catalog",
+  "types": [
+    "addon_catalog"
+  ],
+  "resources": [
+    "movie"
+  ],
+  "catalogs": [],
+  "addonCatalogs": [
+    {
+      "type": "all",
+      "id": "stremioitalia",
+      "name": "Stremio Italia"
+    }
+  ]
+}

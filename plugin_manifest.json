@@ -1,0 +1,24 @@
+{
+  "id": "plugin.local.addon",
+  "version": "1.0.0",
+  "name": "🔌 Plugin",
+  "logo": "https://i.imgur.com/MNCsSvk.png",
+  "description": "Local Plugin Scrapers Addon (Gestito via Config Page)",
+  "resources": [
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series",
+    "anime"
+  ],
+  "catalogs": [],
+  "idPrefixes": [
+    "tt",
+    "kitsu",
+    "tmdb"
+  ],
+  "behaviorHints": {
+    "configurable": true
+  }
+}
